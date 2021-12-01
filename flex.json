@@ -1,0 +1,525 @@
+{
+  "type": "flex",
+  "altText": "covid-19 form",
+  "contents": {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://media-public.canva.com/dU0vg/MAD599dU0vg/1/tl.jpg",
+    "size": "full",
+    "aspectRatio": "550:250",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://profile.line-scdn.net/0hHcDC5OrdF0x5OgHHFdFoG0V_GSEOFBEEAV8PKwtoTisDCFQdFQxZL1puG3tSClITEg4MLwtqQChX"
+              }
+            ],
+            "width": "75px",
+            "height": "75px",
+            "cornerRadius": "150px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "บันทึกทั่วไป",
+                "align": "center",
+                "weight": "bold",
+                "gravity": "center"
+              }
+            ],
+            "backgroundColor": "#ffc252",
+            "width": "125px",
+            "cornerRadius": "md",
+            "margin": "xxl"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "รายงานตรวจวัดประเมินอาการ Covid-19",
+            "align": "center",
+            "color": "#ffffff",
+            "weight": "bold"
+          }
+        ],
+        "margin": "md",
+        "backgroundColor": "#00d1d1",
+        "cornerRadius": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "ใช้งานครั้งแรก :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "DisplayName :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "วันที่บันทึก :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "เวลา :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "อุณหภูมิร่างกาย :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " 🌡"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "มีไข้ :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#c73333",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "อาการระบบทางเดินหายใจ :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#c73333",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "มีอาการ :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#c73333",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "โรคประจำตัว :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#c73333",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "รายละเอียดโรคประจำตัว :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#c73333",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "ผู้ติดต่อใกล้ชิด :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "สถานะ :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "ชื่อ :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "backgroundColor": "#eadbc8",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "hello, world",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "เบอร์ติดต่อ :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "span",
+                    "text": " "
+                  },
+                  {
+                    "type": "span",
+                    "text": "hello, world1",
+                    "color": "#00ad00",
+                    "weight": "bold"
+                  }
+                ],
+                "wrap": true
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#eee8e0",
+    "paddingAll": "10px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ติดต่อสอบ",
+        "wrap": true,
+        "align": "center",
+        "weight": "bold",
+        "color": "#ffffff"
+      },
+      {
+        "type": "text",
+        "text": "tel. 0123456789",
+        "align": "center",
+        "wrap": true,
+        "color": "#ffffff"
+      }
+    ],
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "http://linecorp.com/"
+    },
+    "backgroundColor": "#002e2e"
+  },
+  "size": "giga"
+}
+}
