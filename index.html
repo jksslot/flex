@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Prompt&display=swap" rel="stylesheet">
+<style>
+  body{
+    font-family: 'Prompt', sans-serif;
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-light bg-dark my-3">
+  <div class="container-fluid">
+    <span class="navbar-text text-white mx-auto">
+      <h4><i class="fas fa-clipboard-list"></i> ลงทะเบียนรับเคดิตฟรี</h4>
+    </span>
+  </div>
+</nav>
+    <form id="form" onsubmit="save(this)">
+      <div class="mb-3">
+  <label for="name1" class="form-label"><i class="fas fa-user-edit"></i> ชื่อ</label>
+  <input type="text" class="form-control" name="name1" placeholder=" xxxx " required>
+</div>
+<div class="mb-3">
+  <label for="name2" class="form-label"><i class="fas fa-user-plus"></i> นามสกุล</label>
+  <input type="text" class="form-control" name="name2" placeholder=" xxxx " required>
+</div>
+<div class="mb-3">
+  <label for="name3" class="form-label"><i class="fas fa-mobile-alt"></i> เบอร์โทร</label>
+  <input type="text" class="form-control" name="name3" placeholder=" 0801111111 " required>
+</div>
+<div class="mb-3">
+  <label for="name1" class="form-label"><i class="fas fa-university"></i> ธนาคาร</label>
+   <select name="name4"class="form-select" aria-label="Default select example" required>
+  <option selected disabled value=""> เลือกธนาคาร</option>
+  <option data-v-0485496f="" value="KBANK"> ธนาคารกสิกรไทย </option>
+  <option data-v-0485496f="" value="KTB"> ธนาคารกรุงไทย </option>
+  <option data-v-0485496f="" value="GSB"> ธนาคารออมสิน </option>
+  <option data-v-0485496f="" value="BAY"> ธนาคารกรุงศรีอยุธยา </option>
+  <option data-v-0485496f="" value="TMB"> ธนาคารทหารไทยธนชาต </option>
+  <option data-v-0485496f="" value="BBL"> ธนาคารกรุงเทพ </option>
+  <option data-v-0485496f="" value="CIMB"> ธนาคารซีไอเอ็มบีไทย </option>
+  <option data-v-0485496f="" value="CITI"> ธนาคารซิตี้แบงค์ </option>
+  <option data-v-0485496f="" value="TISCO"> ธนาคารทิสโก้ </option>
+  <option data-v-0485496f="" value="TCRB"> ธนาคารไทยเครดิตเพื่อรายย่อย </option>
+  <option data-v-0485496f="" value="SMBC"> ธนาคารซูมิโตโมมิตซุย </option>
+  <option data-v-0485496f="" value="LH"> ธนาคารแลนด์แอนด์เฮาส์ </option>
+  <option data-v-0485496f="" value="ISBT"> ธนาคารอิสลามแห่งประเทศไทย </option>
+  <option data-v-0485496f="" value="GHB"> ธนาคารอาคารสงเคราะห์ </option>
+  <option data-v-0485496f="" value="KKP"> ธนาคารเกียรตินาคิน </option>
+  <option data-v-0485496f="" value="DB"> ธนาคารดอยซ์ </option>
+  <option data-v-0485496f="" value="BAAC"> ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร </option>
+  <option data-v-0485496f="" value="UOB"> ธนาคารยูโอบี </option>
+  <option data-v-0485496f="" value="ICBC"> ธนาคารไอซีบีซี (ไทย) </option>
+  <option data-v-0485496f="" value="HSBC"> ธนาคารฮ่องกงและเซี่ยงไฮ้ </option>
+  <option data-v-0485496f="" value="SCB"> ธนาคารไทยพาณิชย์ </option>
+  <option data-v-0485496f="" value="TW"> ทรูวอลเล็ต </option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="name5" class="form-label"><i class="fas fa-money-check"></i> เลขที่บัญชี</label>
+  <input type="text" class="form-control" name="name5" placeholder=" 9876543210 " required>
+</div>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-outline-warning" type="button"><i class="fas fa-save"></i> บันทึกข้อมูล</button>
+</div>
+    </form>
+    </div>
+
+    <script>
+      function save(data){
+        event.preventDefault()
+       google.script.run.withSuccessHandler(success).record(data)
+      }
+      function success(){
+        document.querySelector("form").reset()
+        Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: 'บันทึกข้อมูลเรียบร้อย',
+  showConfirmButton: false,
+  timer: 1500
+})
+      }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+
